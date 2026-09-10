@@ -1,4 +1,5 @@
-# Исправление сборки
+# FIX_BUILD
 
-Исправлена ошибка JVM target validation: Java и Kotlin теперь собираются с target 17.
-GitHub Actions использует Java 17 и Gradle 8.9.
+Исправлена ошибка Kotlin 2.0.21: старый `kotlinOptions { jvmTarget = "17" }` заменён на новый Kotlin compilerOptions DSL.
+
+Java и Kotlin теперь компилируются под JVM 17.
