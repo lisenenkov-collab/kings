@@ -1,0 +1,1 @@
+GitHub Actions: Java 17 + Gradle 8.9 + Android SDK; no Android Studio and no Gradle Wrapper required.
